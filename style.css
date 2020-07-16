@@ -9,6 +9,10 @@ body {
     font-family: Poppins;
 }
 
+.wrapper {
+    margin: 1em;
+}
+
 .header__h2 {
     margin-bottom: 38px;
     font-family: PT Serif;
@@ -28,7 +32,28 @@ body {
     margin-bottom: 42px;
 }
 
+.gallery__img {
+    max-width: 100%;
 
-.wrapper {
-    margin: 1em;
+}
+
+.gallery__item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.gallery__bottom-caption {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    bottom: -1.2em;
+    left: 0;
+
+}
+
+.gallery__right-caption {
+    position: absolute;
+    font-size: 10px;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
 }
