@@ -57,3 +57,13 @@ body {
     text-transform: uppercase;
     writing-mode: vertical-lr;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+    font-family: Montserrat;
+}
